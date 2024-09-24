@@ -1,5 +1,5 @@
 let menuVisible = false;
-//Función que oculta o muestra el menu
+//Funcião que oculta e mostra o menu
 function mostrarOcultarMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
@@ -11,11 +11,11 @@ function mostrarOcultarMenu(){
 }
 
 function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
+    //oculta o menu uma vez que selecciono uma opcao
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
-//Funcion que aplica las animaciones de las habilidades
+//Funcão que aplica as animacioes das habilidades
 function efectoHabilidades(){
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
