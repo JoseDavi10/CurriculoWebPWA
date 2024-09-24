@@ -1,0 +1,11 @@
+{
+    "name": "Davi Gomes",
+    "short_name": "AppWeb",
+    "description": "Curriculo José Davi A. Gomes",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "scope": ".",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  }
+  
